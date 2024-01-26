@@ -1,2 +1,2 @@
 # html-css
- Aqui estão os exercícios do Curso de HTML5 e CSS3 do CursoemVídeo
+ Aqui estão os exercícios do Curso de HTML5 e CSS3 do CursoemVídeo ☺
