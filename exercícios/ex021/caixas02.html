@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(97, 45, 20);
+            font: 18px arial;
+        }
+        header{
+            background-color: rgb(203, 167, 123);
+            margin: 15px 15px;
+            padding: 5px;
+        }
+        header > h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        nav a{
+            text-decoration: none;
+            color: antiquewhite;
+            background-color: brown;
+            box-shadow: 3px -2px 2px rgba(0, 0, 0, 0.476);
+            padding: 5px;
+            margin: 5px;
+        }
+        main{
+            background-color: rgb(203, 167, 123);
+            padding: 20px;
+            margin: 15px 15px;
+            border-radius: 8px 3px;
+        }
+        article > h2{
+            text-align: center;
+        }
+        footer{
+            background-color: rgb(100, 70, 34);
+            padding: 20px;
+            text-align: center;
+            color: bisque;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">></a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <section id="Noticias">
+            <article>
+                <h2>Título</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet quos sed odit laboriosam qui facilis molestias cupiditate placeat perferendis sequi quibusdam ipsam aliquid impedit dignissimos quia similique, optio rerum unde?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum accusamus soluta modi nisi facilis minima maiores laudantium fuga! Tempora tenetur earum nisi autem laborum ipsa sapiente libero eius animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellendus. Quasi voluptates ducimus qui labore ipsam, ea odio doloribus vel culpa? Consectetur rem totam exercitationem non iusto distinctio illum in. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi illum expedita numquam doloremque. Sapiente commodi nesciunt repellat excepturi eaque, maxime aperiam quos nostrum optio voluptate illum fuga corrupti placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo ducimus tempore laudantium ratione officiis magni quae, minus labore autem, enim molestiae architecto adipisci et quasi recusandae dolorum? Nam, laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quam ipsam ducimus, blanditiis delectus odit quas, omnis praesentium possimus laudantium nostrum. Vitae ab nam quasi quod soluta, repellat ducimus quibusdam.</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Escrito por fulaninho de tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito pelo criador</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 930px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios em HTML5</h1>
+    <p>Você pode reproduzir audios legais em <abbr title="Hyper Text Markup lenguage 5">HTML5</abbr></p>
+    <audio src="midia/Dead Wrong - Jeremy Blake.mp3" controls autoplay loop></audio>
+    <!-- ou -->
+    <audio>
+        <source src="midia/Dead Wrong - Jeremy Blake.mp3" type="audio/mpeg">
+        <source src="midia/TIRO DE PISTOLA SOM EFEITO!! (online-audio-converter.com).wav" type="audio/wav">
+        <p>Infelizmente o audio não é compativel com seu navegador, baixe o audio tiro de pistola <a href="midia/TIRO DE PISTOLA SOM EFEITO!! (online-audio-converter.com).wav" download="audio/wav">aqui</a></p>
+    </audio>
+</body>
+</html>
