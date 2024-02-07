@@ -24,6 +24,11 @@ header{
     background-color: var(--cor3);
 }
 
+p{
+    text-align: justify;
+    line-height: 2em;
+}
+
 header > h1{
     padding: 20px;
 }
@@ -42,7 +47,7 @@ nav > ul > li{
 main{
     margin: auto;
     background-color: #ffffff;
-    width: 85%;
+    width: 65%;
 }
 
 section#inicio{
@@ -52,7 +57,26 @@ section#inicio{
 }
 
 section#inicio > div.direita{
-    width: 40vw;
-    background-color: #ffffff;
+    width: 25vw;
     padding: 10px;
+}
+
+div.direita > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+section#inicio > button.botao1{
+    display: block;
+    margin: 35px auto;
+    border: 1px solid #0000cd;
+    border-radius: 20px;
+    background-color: #0000cd;
+}
+
+section#inicio > button.botao1 > a{
+    display: inline-block;
+    padding: 18px;
+    text-decoration: none;
+    color: #ffffff;
 }
