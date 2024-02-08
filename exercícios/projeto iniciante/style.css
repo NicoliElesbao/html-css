@@ -20,8 +20,12 @@ body{
 
 header{
     display: flex;
+    width: 100%;
     justify-content: space-around;
     background-color: var(--cor3);
+    position: sticky;
+    top: 1px;
+    bottom: 10px;
 }
 
 p{
@@ -50,9 +54,9 @@ main{
     width: 65%;
 }
 
-section#inicio{
+section#inicio, section#sobre, section#projetos, section#contatos{
     padding: 20px;
-    height: 95vh;
+    height: 90vh;
     background-color: #11D9F0;
 }
 
@@ -66,15 +70,24 @@ div.direita > h1{
     text-align: center;
 }
 
-section#inicio > button.botao1{
+div.botao1{
+    position: relative;
+    height: 30vh;
+}
+
+div.botao1 > button{
     display: block;
-    margin: 35px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
     border: 1px solid #0000cd;
     border-radius: 20px;
     background-color: #0000cd;
 }
 
-section#inicio > button.botao1 > a{
+div.botao1 > button > a{
     display: inline-block;
     padding: 18px;
     text-decoration: none;
